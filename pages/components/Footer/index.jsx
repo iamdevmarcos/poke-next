@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <p>
-        <span>PokeNext</span> - Made with Love by Marcos Andre
+        <span>PokeNext</span> - Made with 🤍 by Marcos Andre
       </p>
     </footer>
   );
