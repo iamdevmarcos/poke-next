@@ -12,10 +12,10 @@ export default function Layout({ children }) {
           href="/images/favicon.ico"
           type="image/x-icon"
         />
-        <title>Poke Next</title>
+        <title>Poke-Next</title>
       </Head>
       <NavBar />
-      <main>{children}</main>
+      <main className="main-container">{children}</main>
       <Footer />
     </>
   );

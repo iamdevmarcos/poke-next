@@ -1,5 +1,10 @@
-body {
-  padding: 0;
+* {
+  font-family: "Poppins", "Segoe UI", sans-serif;
   margin: 0;
-  font-family: Segoe UI, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  min-height: 70vh;
 }
