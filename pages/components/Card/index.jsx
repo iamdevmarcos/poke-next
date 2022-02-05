@@ -1,12 +1,19 @@
 import Image from "next/image";
+import Link from "next/link";
+
+import styles from "../../../styles/Card.module.css";
 
 export default function Card({ pokemon }) {
   const avatar = `https://cdn.traction.one/pokedex/pokemon/${pokemon.id}.png`;
 
   return (
-    <div>
+    <div className={styles.card}>
       <Image src={avatar} width="120" height="120" alt={pokemon.name} />
-      <h3>{pokemon.name}</h3>
+      <p className={styles.id}>#{pokemon.id}</p>
+      <h3 className={styles.title}>{pokemon.name}</h3>
+      <Link href={`/pokemon/${pokemon.id}`}>
+        <a className={styles.btn}>Detalhes</a>
+      </Link>
     </div>
   );
 }
