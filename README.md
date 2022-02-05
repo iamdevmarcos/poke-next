@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://pokenext-iamdevmarcos.vercel.app/" target="_blank">
-    <img src="./images/Project.gif" width="550">
+    <img src="/images/Project.gif" width="550">
   </a>
 </p>
 
