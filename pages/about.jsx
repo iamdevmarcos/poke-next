@@ -11,7 +11,7 @@ export default function About() {
         Feel free to download this project or send feedback
       </p>
       <Image
-        src="/images/charizard.png"
+        src="/images/squirtle.gif"
         width="250"
         height="250"
         alt="Charizard"
